@@ -11,6 +11,12 @@
 		DB85742E282991B900842B2E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB85742D282991B900842B2E /* ContentView.swift */; };
 		DB857430282991BC00842B2E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB85742F282991BC00842B2E /* Assets.xcassets */; };
 		DB857433282991BC00842B2E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB857432282991BC00842B2E /* Preview Assets.xcassets */; };
+		F83E784B286B7C3600FDD7C6 /* View1.swift in Sources */ = {isa = PBXBuildFile; fileRef = F83E784A286B7C3600FDD7C6 /* View1.swift */; };
+		F83E784D286B7C4100FDD7C6 /* View2.swift in Sources */ = {isa = PBXBuildFile; fileRef = F83E784C286B7C4100FDD7C6 /* View2.swift */; };
+		F83E784F286B7C4B00FDD7C6 /* View3.swift in Sources */ = {isa = PBXBuildFile; fileRef = F83E784E286B7C4B00FDD7C6 /* View3.swift */; };
+		F83E7851286B7C5500FDD7C6 /* View4.swift in Sources */ = {isa = PBXBuildFile; fileRef = F83E7850286B7C5500FDD7C6 /* View4.swift */; };
+		F83E7857286B7CC800FDD7C6 /* View5.swift in Sources */ = {isa = PBXBuildFile; fileRef = F83E7856286B7CC800FDD7C6 /* View5.swift */; };
+		F83E7859286B7CD800FDD7C6 /* View6.swift in Sources */ = {isa = PBXBuildFile; fileRef = F83E7858286B7CD800FDD7C6 /* View6.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +25,12 @@
 		DB85742D282991B900842B2E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		DB85742F282991BC00842B2E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DB857432282991BC00842B2E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F83E784A286B7C3600FDD7C6 /* View1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View1.swift; sourceTree = "<group>"; };
+		F83E784C286B7C4100FDD7C6 /* View2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View2.swift; sourceTree = "<group>"; };
+		F83E784E286B7C4B00FDD7C6 /* View3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View3.swift; sourceTree = "<group>"; };
+		F83E7850286B7C5500FDD7C6 /* View4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View4.swift; sourceTree = "<group>"; };
+		F83E7856286B7CC800FDD7C6 /* View5.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = View5.swift; path = "../../../../../../Desktop/Xcode Projects/Academy_Connect/Academy_Connect/Views/View5.swift"; sourceTree = "<group>"; };
+		F83E7858286B7CD800FDD7C6 /* View6.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = View6.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +65,7 @@
 			children = (
 				DB85742B282991B900842B2E /* AcademyConnectApp.swift */,
 				DB85742D282991B900842B2E /* ContentView.swift */,
+				F83E7849286B7C2200FDD7C6 /* Views */,
 				DB85742F282991BC00842B2E /* Assets.xcassets */,
 				DB857431282991BC00842B2E /* Preview Content */,
 			);
@@ -65,6 +78,19 @@
 				DB857432282991BC00842B2E /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F83E7849286B7C2200FDD7C6 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F83E784A286B7C3600FDD7C6 /* View1.swift */,
+				F83E784C286B7C4100FDD7C6 /* View2.swift */,
+				F83E784E286B7C4B00FDD7C6 /* View3.swift */,
+				F83E7850286B7C5500FDD7C6 /* View4.swift */,
+				F83E7856286B7CC800FDD7C6 /* View5.swift */,
+				F83E7858286B7CD800FDD7C6 /* View6.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,7 +164,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				DB85742E282991B900842B2E /* ContentView.swift in Sources */,
+				F83E7857286B7CC800FDD7C6 /* View5.swift in Sources */,
+				F83E7851286B7C5500FDD7C6 /* View4.swift in Sources */,
+				F83E784F286B7C4B00FDD7C6 /* View3.swift in Sources */,
+				F83E784B286B7C3600FDD7C6 /* View1.swift in Sources */,
 				DB85742C282991B900842B2E /* AcademyConnectApp.swift in Sources */,
+				F83E784D286B7C4100FDD7C6 /* View2.swift in Sources */,
+				F83E7859286B7CD800FDD7C6 /* View6.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
